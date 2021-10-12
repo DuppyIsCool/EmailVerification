@@ -1,0 +1,14 @@
+name: EmailVerification
+main: me.DuppyIsCool.Main.Main
+author: DuppyIsCool
+version: 1.0
+api-version: 1.17
+description: An email verification plugin
+commands:
+  authenticate:
+    description: Command to authenticate your MC account with an e-mail
+    usage: /<command>
+    aliases: [auth]
+  code:
+    description: Command to authenticate your MC account with an e-mail
+    usage: /<command>

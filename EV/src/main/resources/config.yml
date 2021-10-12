@@ -1,0 +1,13 @@
+mailserver:
+  username: "username"
+  password: "password"
+  from: "email@email.com"
+  subject: "Your Minecraft Verification Code"
+  message: "Your verification code is %CODE%\nItExpires in 5 minutes"
+  extensions: 
+    - "myschool.edu"
+    - "myschool.admin.edu"
+  host: "smtp"
+  port: 578
+authentication:
+  time: 300
