@@ -53,8 +53,8 @@ public class Mail {
 			System.out.println("Invalid email");
 		}
 		
-		//See if the e-mail provided is a valid e-mail extension
-		if(extensions.contains(email.substring(email.indexOf("@")+1).toLowerCase()) && isValid){
+		//See if the e-mail provided is valid and has a valid e-mail extension (if provided)
+		if((extensions.size() == 0 || extensions.contains(email.substring(email.indexOf("@")+1).toLowerCase())) && isValid){
 			
 			if(!codesInUse.containsValue(userID)) {
 				int code = generateCode();
