@@ -20,13 +20,15 @@ Users are currently stored locally in the players.yml, however I was thinking of
 This program implements [JavaMail](https://javaee.github.io/javamail/) version 1.6.2
 
 In addition, this plugin is meant to be run [Spigot servers](https://www.spigotmc.org/)
-## Commands
+## Commands & Permissions
 
 This plugin introduces 2 Commands
 
 /authorize (email) - This will send a verification e-mail to the provided mail address if it is a valid address.
 
 /code (code) - Users enter their code to authorize their account.
+
+emailauth.bypass - Allows a user to be considered authenticated without completing the email verification process.
 
 ## Authors
 
