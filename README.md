@@ -20,7 +20,7 @@ Users are currently stored locally in the players.yml, however I was thinking of
 This program implements [JavaMail](https://javaee.github.io/javamail/) version 1.6.2
 
 In addition, this plugin is meant to be run [Spigot servers](https://www.spigotmc.org/)
-## Help
+## Commands
 
 This plugin introduces 2 Commands
 
