@@ -37,7 +37,3 @@ emailauth.bypass - Allows a user to be considered authenticated without completi
 ## Version History
 
 * This Project was compiled with Spigot 1.17.1
-
-## License
-
-This project is licensed under the GPL-3.0 License - see the [LICENSE.md](https://github.com/DuppyIsCool/EmailVerification/blob/master/LICENSE) file for details
